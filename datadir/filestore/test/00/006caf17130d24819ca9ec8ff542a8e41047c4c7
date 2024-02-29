@@ -1,0 +1,9 @@
+
+.o_report_replenishment_page .o_report_replenishment .o_grid_warning {
+  background-color: #f4cccc;
+}
+
+.o_report_replenishment_page .o_forecasted_row {
+  background-color: #dee2e6;
+}
+

@@ -1,0 +1,122 @@
+
+/**********************************************************************************
+*
+*    Copyright (c) 2017-today MuK IT GmbH.
+*
+*    This file is part of MuK REST API for Odoo
+*    (see https://mukit.at).
+*
+*    MuK Proprietary License v1.0
+*
+*    This software and associated files (the "Software") may only be used
+*    (executed, modified, executed after modifications) if you have
+*    purchased a valid license from MuK IT GmbH.
+*
+*    The above permissions are granted for a single database per purchased
+*    license. Furthermore, with a valid license it is permitted to use the
+*    software on other databases as long as the usage is limited to a testing
+*    or development environment.
+*
+*    You may develop modules based on the Software or that use the Software
+*    as a library (typically by depending on it, importing it and using its
+*    resources), but without copying any source code or material from the
+*    Software. You may distribute those modules under the license of your
+*    choice, provided that this license is compatible with the terms of the
+*    MuK Proprietary License (For example: LGPL, MIT, or proprietary licenses
+*    similar to this one).
+*
+*    It is forbidden to publish, distribute, sublicense, or sell copies of
+*    the Software or modified copies of the Software.
+*
+*    The above copyright notice and this permission notice must be included
+*    in all copies or substantial portions of the Software.
+*
+*    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+*    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+*    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+*    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+*    DEALINGS IN THE SOFTWARE.
+*
+**********************************************************************************/
+.o_kanban_view.mk_oauth_kanban .o_kanban_record {
+  padding: 0;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content {
+  height: 100%;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_image {
+  height: 100%;
+  width: 100px;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_image + div {
+  padding-left: 108px;
+}
+
+@media (max-width: 767.98px) {
+  .o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_image + div {
+    padding-left: 116px;
+  }
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_image .o_kanban_image_wrapper {
+  height: 100%;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_image .o_kanban_image_wrapper .o_kanban_image {
+  width: 100%;
+  height: auto;
+  max-width: 70px;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details {
+  height: 100%;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper {
+  height: 100%;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column;
+  min-height: 100px;
+  padding: 8px 8px;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper .o_kanban_record_title {
+  margin-bottom: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 95%;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper .o_kanban_record_body {
+  -webkit-box-flex: 1; -webkit-flex: 1 1 auto; flex: 1 1 auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper .o_kanban_record_body ul {
+  margin-bottom: 2.5px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.94791667rem;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper .o_kanban_record_body ul li {
+  margin-bottom: 2px;
+}
+
+.o_kanban_view.mk_oauth_kanban .o_kanban_record .oe_kanban_content .o_kanban_details .o_kanban_details_wrapper .oe_kanban_avatar {
+  border-radius: 4px;
+  border: 1px solid #7C7BAD;
+}
+
